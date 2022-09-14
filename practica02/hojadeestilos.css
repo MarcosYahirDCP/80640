@@ -1,0 +1,64 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+a:link{
+    color:#FF0000;
+}
+
+a:visited{
+    color: #00FF00;
+}
+
+a:hover{
+    color: #FF00FF;
+}
+
+a:active{
+    color: #0000ff;
+}
+
+
+/* Editar parametros*/
+#lol{
+    color: rebeccapurple;
+}
+#SP2{
+    /*color: teal;
+    margin: 100px;
+    padding: 100px;*/
+}
+
+#SP1{
+    /*color: red;*/
+
+}
+#link1{
+    font-weight: bolder;
+    font-size: 25px;
+}
+#txt1{
+    margin: 12px;
+    padding: 20px;
+    color: darkslategrey;
+    background-color: yellow;
+}
+ 
+p span{
+    color: hotpink;
+}
+
+.fuente{
+    font-weight: bold;
+    font-size: 35px;
+}
+span::after{
+    content: "XXXXXX"'\A'; white-space: pre;
+}
+body{
+    background-image: url(fondo.jpg);
+    opacity: 0.6;
+}
+

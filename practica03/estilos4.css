@@ -1,0 +1,39 @@
+header{
+    height: 150px;
+    text-align: center;
+    background-color: blueviolet;
+}
+*{
+    margin:0;
+}
+.menu{
+    background: coral;
+    height: 20vh;
+    
+
+}
+h1{
+    text-align: center;
+}
+
+
+.contenido{
+    height: 50vh;
+    background: red;
+    width: 70%;
+    text-align: center;
+ }
+ .publicidad {
+    height: 50vh;
+    background:skyblue;
+    width: 30vw;
+    text-align: center;
+ }
+ .row {
+   display: flex;
+   width: 100%;
+ }
+ footer{
+    background-color: yellow;
+    height: 20vh;
+ }

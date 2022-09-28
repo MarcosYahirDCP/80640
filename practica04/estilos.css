@@ -1,0 +1,25 @@
+ul{
+    width: 180px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border: 1px solid green;
+}
+
+li{
+    background: brown;
+    border-bottom: 1px solid lightcoral;
+    border-top: 1px solid pink;
+}
+
+a{
+    color: chocolate;
+    display: block;
+    padding: .2em 0 .2em 1.5em;
+    text-decoration: none;
+    background: darkred no-repeat 3px;
+}
+
+a:hover{
+    background: white magenta no-repeat 3px;
+}

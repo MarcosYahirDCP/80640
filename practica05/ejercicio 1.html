@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- COdigo para generar codigo de funciones / scrips -->
+    <script>
+        function cambiarColor1(color) {
+            console.log("El color ha sido cambiado por", color);
+            var e=document.getElementById("texto1");
+            e.style.color = color;
+          
+        }
+        function cambiarColor2(color){
+            console.log("El color ha sido cambiado por", color);
+            var e=document.getElementById("texto3");
+            e.style.color = color;
+        }
+
+
+        function cambiarColores(color){
+            let c = document.getElementsByTagName("P")
+            
+            // for (let index = 0; index < c.length; index++) {
+            //     c[index].style.color = color
+                
+            // }
+            //c= [0,1,2,3]
+            var arr = [].slice.call(c);
+            arr.forEach(element => { //funcion de flecha
+                console.log(element)
+                element.style.color = color
+
+            });
+
+            
+        }
+    </script>
+</head>
+<body>
+    <!-- p#texto{simple texto}+(button[onclick=cambiarColor(yellow\)])*2 -->
+    <p id="texto1">simple texto</p>
+    <p id="texto2">simple texto</p>
+    <p id="texto3">simple texto</p>
+    <button onclick="cambiarColor1('blue'); cambiarColor2('yellow')">azul</button>
+    <button onclick="cambiarColor1('red'); cambiarColor2('cyan')">rojo</button>
+    <button onclick="cambiarColores('orange');">colores</button>
+</body>
+</html>

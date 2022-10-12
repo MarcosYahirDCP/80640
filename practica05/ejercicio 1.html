@@ -29,12 +29,18 @@
             // }
             //c= [0,1,2,3]
             var arr = [].slice.call(c);
-            arr.forEach(element => { //funcion de flecha
-                console.log(element)
-                element.style.color = color
-
-            });
-
+            // arr.forEach(element => { //funcion de flecha
+            //     console.log(element)
+            //     element.style.color = color
+            // });
+            let i = 0;
+           for (let x in c){
+            if(i < c.length){
+                c[x].style.color="blue"
+                i++
+            }
+            
+           }
             
         }
     </script>
